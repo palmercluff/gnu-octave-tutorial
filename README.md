@@ -2,7 +2,7 @@
 A tutorial for those wanting to learn GNU Octave.
 
 ## Introduction
-GNU Octave is a high-level, multi-functional scientific tool used for numerical analysis. In the broad sense, it is a numerical computing environment similar to MATLAB. In fact, it's so similar that some call GNU Octave a MATLAB "clone" because most MATLAB scripts can be ran by GNU Octave. One key difference to note right off the bat is unlike MATLAB, GNU Octave is free, so it makes for a great alternative. MATLAB liscenses typically cost around $50 if you are a student or $150 if you are a home user, so if you don't want to spend money but still be able to do scientific computing and data analysis, read on!
+GNU Octave is a high-level, multi-functional scientific tool used for numerical analysis. In the broad sense, it is a numerical computing environment and programming language similar to MATLAB. In fact, it's so similar that some call GNU Octave a MATLAB "clone" because most MATLAB scripts can be ran by GNU Octave. One key difference to note right off the bat is unlike MATLAB, GNU Octave is free, so it makes for a great alternative. MATLAB liscenses typically cost around $50 if you are a student or $150 if you are a home user, so if you don't want to spend money but still be able to do scientific computing and data analysis, read on!
 
 ### What to Expect from this Tutorial
 We will assume that you haven't done very much programming, and we will refer to GNU Octave as just "Octave".
@@ -50,3 +50,6 @@ You should see a 3-D surface plot graphical window come up. Cool, right!? Don't 
 ![alt text](https://github.com/palmercluff/gnu-octave-tutorial/blob/master/contourf_peaks.png "Picture 2")
 
 Pretty neat, huh? As you may have noticed, every time you enter a valid command or function, the number within the prompt increments by 1. This isn't really importnat, but just thought I would point it out. You can also hit the up arrow key while in the program to see past commands you ran. Pretty nifty!
+
+## Basic Programming
+In order to tell Octave what we want it to do, we need to do some programming. Later on, we will learn how to make scripts (a file used to help automate programming tasks) but for now, we are just going to keep typing things into the console.
