@@ -47,6 +47,6 @@ You should see a 3-D surface plot graphical window come up. Cool, right!? Don't 
 
 `octave:2> contourf(peaks)`
 
-![alt text](https://github.com/palmercluff/gnu-octave-tutorial/blob/master/countorf_peaks.png "Picture 1")
+![alt text](https://github.com/palmercluff/gnu-octave-tutorial/blob/master/contourf_peaks.png "Picture 2")
 
-Pretty neat, huh?
+Pretty neat, huh? As you may have noticed, every time you enter a valid command or function, the number within the prompt increments by 1. This isn't really importnat, but just thought I would point it out. You can also hit the up arrow key while in the program to see past commands you ran. Pretty nifty!
