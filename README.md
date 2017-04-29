@@ -53,3 +53,52 @@ Pretty neat, huh? As you may have noticed, every time you enter a valid command 
 
 ## Basic Programming
 In order to tell Octave what we want it to do, we need to do some programming. Later on, we will learn how to make scripts (a file used to help automate programming tasks) but for now, we are just going to keep typing things into the console.
+
+Just like in Mathematics, if we want to store some sort of value, we need container called a "variable". In Octave, a variable has two properties, a name and a value. For example, If we wanted to store the number 10 in 'x', then our variable name is 'x' and our value is 10. In Octave, it would look something like this:
+
+```
+octave:1> x=10
+x =  10
+```
+
+What this did is store 10 into 'x'. When we typed `x=10` in the prompt and hit enter, the program evaluated it and outputted what 'x' holds. Now if you return to the prompt and type 'x' then press enter like so:
+
+```
+octave:2> x
+x =  10
+```
+
+It will give back what 'x' holds. Nifty!
+
+Variables can hold lots of different things, including but not limited to scalers, vectors, and matrices (linear algebra-type stuff). We can have a variable hold an array (a group of values that are similar to each other), a row vector, or a column vector.
+
+```
+octave:1> array = [1 2 3]
+array =
+
+   1   2   3
+
+octave:2> row_vector = [1, 2, 3]
+row_vector =
+
+   1   2   3
+
+octave:3> column_vector = [1;2;3]
+column_vector =
+
+   1
+   2
+   3
+```
+
+We could even create a 2 x 3 matrix with two rows and three columns:
+
+```
+octave:1> two_by_three_matrix = [1 2 3; 4 5 6]
+two_by_three_matrix =
+
+   1   2   3
+   4   5   6
+```
+
+Notice how I have underscores between my variable names? You can't have spaces in a variable name otherwise you will get errors.
