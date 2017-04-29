@@ -1,6 +1,9 @@
 # gnu-octave-tutorial
 A tutorial for those wanting to learn GNU Octave.
 
+### References
+- GNU Octave Beginners Guide by Jesper Schmidt Hansen (https://www.amazon.com/Octave-Beginners-Jesper-Schmidt-Hansen/dp/1849513325)
+
 ## Introduction
 GNU Octave is a high-level, multi-functional scientific tool used for numerical analysis. In the broad sense, it is a numerical computing environment and programming language similar to MATLAB. In fact, it's so similar that some call GNU Octave a MATLAB "clone" because most MATLAB scripts can be ran by GNU Octave. One key difference to note right off the bat is unlike MATLAB, GNU Octave is free, so it makes for a great alternative. MATLAB liscenses typically cost around $50 if you are a student or $150 if you are a home user, so if you don't want to spend money but still be able to do scientific computing and data analysis, read on!
 
