@@ -32,5 +32,21 @@ Read http://www.octave.org/bugs.html to learn how to submit bug reports.
 For information about changes from previous versions, type 'news'.
 
 octave:1>
-
 ```
+
+At the prompt, you can type `exit` then press enter, or do CTRL + D to quit the interpreter. Great! We are ready to move on.
+
+## First Execution
+Let's test out Octave and do something cool! Let's try making some plots to see what Octave is capable of. Get back into Octave by typing `octave` in your console, then at the prompt, type the following below (don't type `octave:1>`, that's just part of the program):
+
+`octave:1> surf(peaks)`
+
+![alt text](https://github.com/palmercluff/gnu-octave-tutorial/blob/master/surf_peaks.png "Picture 1")
+
+You should see a 3-D surface plot graphical window come up. Cool, right!? Don't worrk if you don't know much about graphing or plotting stuff, we just wanted to make sure this worked. Let's try another one! (Remember, just type: "contourf(peaks)" at the prompt)
+
+`octave:2> contourf(peaks)`
+
+![alt text](https://github.com/palmercluff/gnu-octave-tutorial/blob/master/countorf_peaks.png "Picture 1")
+
+Pretty neat, huh?
