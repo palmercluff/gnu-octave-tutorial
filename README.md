@@ -46,7 +46,7 @@ Let's test out Octave and do something cool! Let's try making some plots to see 
 
 ![alt text](https://github.com/palmercluff/gnu-octave-tutorial/blob/master/surf_peaks.png "Picture 1")
 
-You should see a 3-D surface plot graphical window come up. Cool, right!? Don't worrk if you don't know much about graphing or plotting stuff, we just wanted to make sure this worked. Let's try another one! (Remember, just type: "contourf(peaks)" at the prompt)
+You should see a 3-D surface plot graphical window come up. Cool, right!? Don't worry if you don't know much about graphing or plotting stuff, we just wanted to make sure this worked. Let's try another one! (Remember, just type: "contourf(peaks)" at the prompt)
 
 `octave:2> contourf(peaks)`
 
