@@ -105,3 +105,23 @@ two_by_three_matrix =
 ```
 
 Notice how I have underscores between my variable names? You can't have spaces in a variable name otherwise you will get errors.
+
+We can also access a single element, or number within an array. If we wanted to access the second element:
+
+```
+octave:1> a = [2 4 6 8 10]
+a =
+
+    2    4    6    8   10
+
+octave:2> a(2)
+ans =  4
+```
+
+we do `a(2)` and it gives us the number 4 because that was the second element in the array (from left to right). If we look back at our two_by_three_matrix variable and we wanted to get the number that lies in the second row, third column, we would do something like this:
+
+`two_by_three_matrix(2,3)` and it would give us an `ans = 6`
+
+If we wanted to get the entire second column, we would do `two_by_three_matrix(:,2)`, and if we wanted the entire 1st row, we would do `two_by_three_matrix(1,:)`
+
+If we want to change a value in an array or matrix, simply use the parenthesis and use an equal sign. For example, looking back at our 'a' variable/array, we can say `a(2) = 10` and it would make the second element hold 10!
