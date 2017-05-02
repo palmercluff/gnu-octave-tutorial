@@ -125,3 +125,8 @@ we do `a(2)` and it gives us the number 4 because that was the second element in
 If we wanted to get the entire second column, we would do `two_by_three_matrix(:,2)`, and if we wanted the entire 1st row, we would do `two_by_three_matrix(1,:)`
 
 If we want to change a value in an array or matrix, simply use the parenthesis and use an equal sign. For example, looking back at our 'a' variable/array, we can say `a(2) = 10` and it would make the second element hold 10!
+
+The takaway from this is that by using the parenthesis "()" you can access elements, and by using an equals sign '=' you can set or change what a particular variable is holding.
+
+## Scripts
+Earlier on I mentioned scripts and how they can help automate programming tasks. It very quickly becomes menotinous to type commands into the Octave console and have it spit-out output. By using scripts, we can write some commands, then have Octave read the commands that are in the script.
