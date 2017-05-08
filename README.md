@@ -57,6 +57,8 @@ Pretty neat, huh? As you may have noticed, every time you enter a valid command 
 ## Basic Programming
 In order to tell Octave what we want it to do, we need to do some programming. Later on, we will learn how to make scripts (a file used to help automate programming tasks) but for now, we are just going to keep typing things into the console.
 
+### Variables
+
 Just like in Mathematics, if we want to store some sort of value, we need container called a "variable". In Octave, a variable has two properties, a name and a value. For example, If we wanted to store the number 10 in 'x', then our variable name is 'x' and our value is 10. In Octave, it would look something like this:
 
 ```
@@ -73,7 +75,7 @@ x =  10
 
 It will give back what 'x' holds. Nifty!
 
-Variables can hold lots of different things, including but not limited to scalers, vectors, and matrices (linear algebra-type stuff). We can have a variable hold an array (a group of values that are similar to each other), a row vector, or a column vector.
+Variables can hold lots of different things, including but not limited to scalers, vectors, characters, strings, and matrices (linear algebra-type stuff). We can have a variable hold an array (a group of values that are similar to each other), a row vector, or a column vector.
 
 ```
 octave:1> array = [1 2 3]
@@ -128,5 +130,25 @@ If we want to change a value in an array or matrix, simply use the parenthesis a
 
 The takaway from this is that by using the parenthesis "()" you can access elements, and by using an equals sign '=' you can set or change what a particular variable is holding.
 
+We can also store strings (characters that make up a word).
+
+```
+octave:1> text = "Hello, World!"
+text = Hello, World!
+```
+
+and we can access a single letter:
+```
+octave:2> text(2)
+ans = e
+```
+
+or get a few letters:
+```
+octave:3> text(2:4)
+ans = ell
+```
+Cool!
+
 ## Scripts
-Earlier on I mentioned scripts and how they can help automate programming tasks. It very quickly becomes menotinous to type commands into the Octave console and have it spit-out output. By using scripts, we can write some commands, then have Octave read the commands that are in the script.
+Earlier on I mentioned scripts and how they can help automate programming tasks. It very quickly becomes menotinous to type commands into the Octave console and have it spit-out output. By using scripts, we can write some commands in the script, then have Octave run the commands saving us some typing.
